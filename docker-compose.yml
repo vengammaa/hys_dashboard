@@ -1,0 +1,9 @@
+version: "3"
+
+ 
+services:
+
+ hys_dashboard:
+    image: hys_dashboard
+    ports:
+      - "9555:9555"
